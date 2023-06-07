@@ -111,8 +111,16 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/3rd Party/DOTween/DOTween.dll"
+-r:"Assets/3rd Party/DOTween/Editor/DOTweenEditor.dll"
+-r:"Assets/3rd Party/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll"
+-r:"Assets/3rd Party/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll"
+-r:"Assets/3rd Party/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll"
+-r:"Assets/3rd Party/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll"
+-r:"Assets/3rd Party/Zenject/Source/Usage/Zenject-usage.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
