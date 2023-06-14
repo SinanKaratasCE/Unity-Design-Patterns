@@ -373,6 +373,14 @@
 "Assets/3rd Party/ParticlePack/Shared/Scripts/ProximityActivate.cs"
 "Assets/3rd Party/ParticlePack/Shared/Scripts/SimpleCameraController.cs"
 "Assets/3rd Party/ParticlePack/Shared/Scripts/SimpleCharacterMotor.cs"
+"Assets/DesignPatterns/Behavioral Patterns/Command/Scripts/Example Project/Character/PlayerMover.cs"
+"Assets/DesignPatterns/Behavioral Patterns/Command/Scripts/Example Project/Commands/MoveCommand.cs"
+"Assets/DesignPatterns/Behavioral Patterns/Command/Scripts/Example Project/Managers/CommandGameInstaller.cs"
+"Assets/DesignPatterns/Behavioral Patterns/Command/Scripts/Example Project/Managers/GameManager.cs"
+"Assets/DesignPatterns/Behavioral Patterns/Command/Scripts/Example Project/Managers/InputManager.cs"
+"Assets/DesignPatterns/Behavioral Patterns/Command/Scripts/Pattern/CommandInvoker.cs"
+"Assets/DesignPatterns/Behavioral Patterns/Command/Scripts/Pattern/ICommand.cs"
+"Assets/DesignPatterns/Behavioral Patterns/Observer/Scripts/Example Project/Installer/ObserverGameInstaller.cs"
 "Assets/DesignPatterns/Behavioral Patterns/Observer/Scripts/Example Project/Observers/AccomplishmentObserver.cs"
 "Assets/DesignPatterns/Behavioral Patterns/Observer/Scripts/Example Project/Observers/AnimObserver.cs"
 "Assets/DesignPatterns/Behavioral Patterns/Observer/Scripts/Example Project/Observers/AudioObserver.cs"
@@ -384,7 +392,6 @@
 "Assets/DesignPatterns/Behavioral Patterns/Observer/Scripts/Example Project/Subjects/SuccessSubject.cs"
 "Assets/DesignPatterns/Behavioral Patterns/Observer/Scripts/Pattern/Observer.cs"
 "Assets/DesignPatterns/Behavioral Patterns/Observer/Scripts/Pattern/Subject.cs"
-"Assets/General/Installer/GameInstaller.cs"
 "Assets/General/Utils/Timer.cs"
 -langversion:9.0
 

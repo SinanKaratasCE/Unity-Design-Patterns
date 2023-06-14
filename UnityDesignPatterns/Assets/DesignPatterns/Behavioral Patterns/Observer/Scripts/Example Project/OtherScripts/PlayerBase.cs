@@ -6,11 +6,11 @@ namespace DesignPatterns.Observer
     public class PlayerBase : MonoBehaviour
     {
         private bool _groundedPlayer;
-        public Vector3 _playerVelocity;
+        [HideInInspector] public Vector3 _playerVelocity;
         private float _playerSpeed = 10.0f;
         private float _jumpHeight = 1.0f;
         private float _gravityValue = -9.81f;
-        public CharacterController _characterController;
+        [HideInInspector] public CharacterController _characterController;
 
         #region Unity Methods
 
@@ -63,6 +63,5 @@ namespace DesignPatterns.Observer
         }
 
         #endregion
-
     }
 }

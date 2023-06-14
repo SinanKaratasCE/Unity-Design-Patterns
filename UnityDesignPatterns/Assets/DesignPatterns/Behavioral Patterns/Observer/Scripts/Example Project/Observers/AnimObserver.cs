@@ -48,12 +48,12 @@ namespace DesignPatterns.Observer
 
         private void PlayWinAnimation()
         {
-            Timer.Instance.TimerWait(1.1f, () => _player.transform.DOScale(characterCurrentScale + 0.1f, 0.1f));
+            Timer.Instance.TimerWait(1.1f, () => _player.transform.DOScale(characterCurrentScale += 0.02f, 0.1f));
         }
 
         private void PlayLoseAnimation()
         {
-            Timer.Instance.TimerWait(1.1f, () => _player.transform.DOScale(characterCurrentScale - 0.1f, 0.1f));
+            Timer.Instance.TimerWait(1.1f, () => _player.transform.DOScale(characterCurrentScale -= 0.02f, 0.1f));
         }
     }
 }
