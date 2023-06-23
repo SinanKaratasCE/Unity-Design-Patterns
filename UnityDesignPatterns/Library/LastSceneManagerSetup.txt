@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/DesignPatterns/Behavioral Patterns/Command/Scene/Command.unity
+- path: Assets/DesignPatterns/Behavioral Patterns/State/Scene/State.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

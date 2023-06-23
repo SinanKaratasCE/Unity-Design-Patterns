@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using Zenject;
+using Utils;
 
 namespace DesignPatterns.Command
 {
@@ -55,7 +56,10 @@ namespace DesignPatterns.Command
             if (playerMover.IsValidMove(movement))
             {
                 if (playerMover.IsAtGoal(movement))
-                    _gameManager.RestartLevel();
+                {
+                    _gameManager.LevelComplete();
+                    Timer.Instance.TimerWait(3f,()=>_gameManager.RestartLevel());
+                }
                 // issue the command and save to undo stack
                 ICommand command = new MoveCommand(playerMover, movement);
 

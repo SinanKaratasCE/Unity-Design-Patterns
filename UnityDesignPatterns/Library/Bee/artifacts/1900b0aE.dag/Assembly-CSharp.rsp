@@ -392,6 +392,18 @@
 "Assets/DesignPatterns/Behavioral Patterns/Observer/Scripts/Example Project/Subjects/SuccessSubject.cs"
 "Assets/DesignPatterns/Behavioral Patterns/Observer/Scripts/Pattern/Observer.cs"
 "Assets/DesignPatterns/Behavioral Patterns/Observer/Scripts/Pattern/Subject.cs"
+"Assets/DesignPatterns/Behavioral Patterns/State/Scripts/Example Project/FSMBase/PlayerBaseState.cs"
+"Assets/DesignPatterns/Behavioral Patterns/State/Scripts/Example Project/FSMBase/PlayerStateMachine.cs"
+"Assets/DesignPatterns/Behavioral Patterns/State/Scripts/Example Project/Player/PlayerController.cs"
+"Assets/DesignPatterns/Behavioral Patterns/State/Scripts/Example Project/Player/PlayerInput.cs"
+"Assets/DesignPatterns/Behavioral Patterns/State/Scripts/Example Project/Player/PlayerStateViewer.cs"
+"Assets/DesignPatterns/Behavioral Patterns/State/Scripts/Example Project/States/AttackState.cs"
+"Assets/DesignPatterns/Behavioral Patterns/State/Scripts/Example Project/States/IdleState.cs"
+"Assets/DesignPatterns/Behavioral Patterns/State/Scripts/Example Project/States/JumpState.cs"
+"Assets/DesignPatterns/Behavioral Patterns/State/Scripts/Example Project/States/RunState.cs"
+"Assets/DesignPatterns/Behavioral Patterns/State/Scripts/Pattern/BaseState.cs"
+"Assets/DesignPatterns/Behavioral Patterns/State/Scripts/Pattern/StateMachineBase.cs"
+"Assets/General/Utils/LookAtCamera.cs"
 "Assets/General/Utils/Timer.cs"
 -langversion:9.0
 

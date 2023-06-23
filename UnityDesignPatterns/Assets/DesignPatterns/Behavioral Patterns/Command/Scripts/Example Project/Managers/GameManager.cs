@@ -10,6 +10,7 @@ namespace DesignPatterns.Command
         private int _remainingMoves;
         private const int MaxMoveCount = 20;
         [SerializeField] private TMP_Text remainingMoveCountText;
+        [SerializeField] private GameObject winEffect;
 
         public int RemainingMoves
         {
@@ -54,6 +55,11 @@ namespace DesignPatterns.Command
         public void RestartLevel()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        
+        public void LevelComplete()
+        {
+            winEffect.SetActive(true);
         }
     }
 }
