@@ -24,7 +24,6 @@ namespace DesignPatterns.State
 
         public override void Exit()
         {
-            Debug.Log("Exiting Attack State");
         }
     }
 }

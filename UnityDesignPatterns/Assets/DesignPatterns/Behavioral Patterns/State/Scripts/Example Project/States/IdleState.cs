@@ -8,10 +8,7 @@ namespace DesignPatterns.State
         {
         }
 
-        public override void Enter()
-        {
-            base.Enter();
-        }
+        
 
         public override void Tick(float deltaTime)
         {
