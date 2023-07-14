@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/DesignPatterns/Structural Patterns/Flyweight/Scene/Flyweight.unity
+- path: Assets/DesignPatterns/Creational Patterns/Singleton & ObjectPool/Scene/Singleton&ObjectPool.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

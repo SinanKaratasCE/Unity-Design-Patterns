@@ -377,7 +377,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Zenject-PoolMonitor-Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Zenject-ReflectionBaking-Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Zenject.ref.dll"
-"Assets/3rd Party/ParticlePack/Shared/Ramps/Editor/RampAssetEditor.cs"
+"Assets/3rd Party/Effect/ParticlePack/Shared/Ramps/Editor/RampAssetEditor.cs"
+"Assets/3rd Party/Model&Animation/BlinkCharacterAsset/Art/Characters/LowPoly/Editor/MaterialTilingOffset.cs"
 -langversion:9.0
 
 /deterministic

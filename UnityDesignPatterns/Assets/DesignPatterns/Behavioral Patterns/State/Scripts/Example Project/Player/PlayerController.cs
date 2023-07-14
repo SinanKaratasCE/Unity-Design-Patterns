@@ -138,12 +138,11 @@ namespace DesignPatterns.State
 
         public void Attack()
         {
-            _animator.SetBool("Attack", true);
+            _animator.SetTrigger("Attack");
         }
 
         public void ChangePlayerStateAttackToIdle()
         {
-            _animator.SetBool("Attack", false);
             _playerStateMachine.ChangeState(_playerStateMachine.idleState);
         }
     }

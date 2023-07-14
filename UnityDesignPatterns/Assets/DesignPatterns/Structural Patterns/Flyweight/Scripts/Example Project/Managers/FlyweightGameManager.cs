@@ -19,7 +19,7 @@ namespace DesignPatterns.Flyweight
 
             set
             {
-                if (_remainingTime < 0) ;
+                if (_remainingTime < 0) return;
 
                 _remainingTime = value;
                 _flyweightUIManager.UpdateTimeText();

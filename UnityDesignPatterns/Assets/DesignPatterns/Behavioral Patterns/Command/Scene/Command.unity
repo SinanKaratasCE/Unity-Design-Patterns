@@ -1938,7 +1938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMover: {fileID: 297023579}
-  gameManager: {fileID: 1688167199}
+  commandGameManager: {fileID: 1688167199}
 --- !u!114 &1118659647
 MonoBehaviour:
   m_ObjectHideFlags: 0
