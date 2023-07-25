@@ -8,10 +8,10 @@ namespace DesignPatterns.SingletonObjectPool
         //This is useful for when you want to have a single point of access to all the singletons in the game.
 
         public static SingletonContainer Instance { get; private set; }
-        public OPGameManager OpGameManager { get; private set; }
+        public GameManager GameManager { get; private set; }
         public EnemySpawner EnemySpawner { get; private set; }
 
-        public OPUIManager OpUIManager { get; private set; }
+        public UIManager OpUIManager { get; private set; }
 
         private void Awake()
         {
@@ -22,8 +22,8 @@ namespace DesignPatterns.SingletonObjectPool
             }
 
             Instance = this;
-            OpGameManager = GetComponentInChildren<OPGameManager>();
-            OpUIManager = GetComponentInChildren<OPUIManager>();
+            GameManager = GetComponentInChildren<GameManager>();
+            OpUIManager = GetComponentInChildren<UIManager>();
             EnemySpawner = GetComponentInChildren<EnemySpawner>();
         }
     }

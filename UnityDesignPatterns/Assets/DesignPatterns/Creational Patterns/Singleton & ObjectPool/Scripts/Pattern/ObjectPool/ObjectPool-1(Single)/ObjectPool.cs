@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace DesignPatterns.SingletonObjectPool2
+namespace DesignPatterns.SingletonObjectPoolOtherVersion
 {
     public class ObjectPool : MonoBehaviour
     {

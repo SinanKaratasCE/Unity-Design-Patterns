@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DesignPatterns.SingletonObjectPool2
+namespace DesignPatterns.SingletonObjectPoolOtherVersion
 {
     public class PooledObject : MonoBehaviour
     {

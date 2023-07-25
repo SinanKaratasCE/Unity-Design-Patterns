@@ -17,13 +17,13 @@ namespace DesignPatterns.Command
         [SerializeField] Button undoButton;
         [SerializeField] Button redoButton;
         private PlayerMover _playerMover;
-        private CommandGameManager _commandGameManager;
+        private GameManager _gameManager;
 
         [Inject]
-        private void OnInstaller(PlayerMover playerMover, CommandGameManager commandGameManager)
+        private void OnInstaller(PlayerMover playerMover, GameManager gameManager)
         {
             _playerMover = playerMover;
-            _commandGameManager = commandGameManager;
+            _gameManager = gameManager;
         }
 
         private void Start()
@@ -39,14 +39,14 @@ namespace DesignPatterns.Command
 
         private void RunPlayerCommand(PlayerMover playerMover, Vector3 movement)
         {
-            if (playerMover == null || _commandGameManager == null)
+            if (playerMover == null || _gameManager == null)
             {
                 Debug.Log($"{playerMover.name} is null");
                 return;
             }
 
             // check if there are moves left
-            if (_commandGameManager.RemainingMoves <= 0)
+            if (_gameManager.RemainingMoves <= 0)
             {
                 Debug.Log("No more moves left");
                 return;
@@ -57,15 +57,15 @@ namespace DesignPatterns.Command
             {
                 if (playerMover.IsAtGoal(movement))
                 {
-                    _commandGameManager.LevelComplete();
-                    Timer.Instance.TimerWait(3f,()=>_commandGameManager.RestartLevel());
+                    _gameManager.LevelComplete();
+                    Timer.Instance.TimerWait(3f,()=>_gameManager.RestartLevel());
                 }
                 // issue the command and save to undo stack
                 ICommand command = new MoveCommand(playerMover, movement);
 
                 // we run the command immediately here, but you can also delay this for extra control over the timing
                 CommandInvoker.ExecuteCommand(command);
-                _commandGameManager.DecreaseMoveCount();
+                _gameManager.DecreaseMoveCount();
                 
                 
             }
@@ -95,7 +95,7 @@ namespace DesignPatterns.Command
         {
             if (CommandInvoker.CheckUndo())
             {
-                _commandGameManager.IncreaseMoveCount();
+                _gameManager.IncreaseMoveCount();
             }
 
             CommandInvoker.UndoCommand();
@@ -105,7 +105,7 @@ namespace DesignPatterns.Command
         {
             if (CommandInvoker.CheckRedo())
             {
-                _commandGameManager.DecreaseMoveCount();
+                _gameManager.DecreaseMoveCount();
             }
 
             CommandInvoker.RedoCommand();
