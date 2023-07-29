@@ -33,7 +33,6 @@ namespace DesignPatterns.SingletonObjectPool
         protected virtual void OnTriggerEnter(Collider other)
         {
             if (!other.TryGetComponent(out IDamageable damageable)) return;
-            Debug.Log($"OnTrigger 2 kere çalıştı");
             damageable.TakeDamage(spellDamage);
             gameObject.SetActive(false);
         }

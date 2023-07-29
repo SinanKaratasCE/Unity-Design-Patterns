@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/DesignPatterns/Behavioral Patterns/Strategy/Scene/Strategy.unity
+- path: Assets/DesignPatterns/Creational Patterns/Factory Pattern/Scene/Factory.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
