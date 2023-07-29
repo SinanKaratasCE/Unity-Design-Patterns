@@ -633,11 +633,12 @@ MonoBehaviour:
   - {fileID: 1168790912487040076}
   - {fileID: 5213354977248216981}
   - {fileID: 2584319416294496161}
-  moveSpeed: 10
+  moveSpeed: 7
   maxZigzagAmplitude: 0.02
   zigzagFrequency: 2
   leftLimit: -8
   rightLimit: 20
+  gameManager: {fileID: 0}
 --- !u!1 &1147906399882980819
 GameObject:
   m_ObjectHideFlags: 0
