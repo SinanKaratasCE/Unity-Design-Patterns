@@ -2559,10 +2559,14 @@
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/shader/TMP_SDF-Mobilefe39/01/d4f2263e1d08519a796fd29920d75b84.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/shader/TMP_SDF-Mobilefe39/01/f5a70e3b6e07b3912be39f1a3a785742.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/83/836360859ff7f2f414c365ee352b36e1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/83/836360859ff7f2f414c365ee352b36e1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/f5/f5a122c8054c9c6d6f9fc8e1162d1b97.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/f5/f5a122c8054c9c6d6f9fc8e1162d1b97.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/33/3321871f3a90df1643bff9ce7cd31052.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/33/3321871f3a90df1643bff9ce7cd31052.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/59/59591982932889b629eebc4be0e4b7a7.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/59/59591982932889b629eebc4be0e4b7a7.json" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/7c/7cec1d9c6ebbf8561427e8221ee93b7c.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/7c/7cec1d9c6ebbf8561427e8221ee93b7c.json" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/9f/9fc68f5dbf7f7bbff27a1a308ef9adf0.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/9f/9fc68f5dbf7f7bbff27a1a308ef9adf0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
@@ -2671,6 +2675,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
@@ -2691,9 +2696,30 @@
       &quot;C:\\Users\\sinan\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
       &quot;C:\\Users\\sinan\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
       &quot;C:\\Users\\sinan\\AppData\\Local\\Symbols\\src&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Sinan",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.build.unityPlugin",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\sinan\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\sinan\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\sinan\\AppData\\Local\\Symbols\\src"
+>>>>>>> Stashed changes
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../../test\UnityDesignPatterns.exe" />
@@ -2805,6 +2831,7 @@
       <workItem from="1690549869786" duration="3708000" />
       <workItem from="1690553867640" duration="6293000" />
       <workItem from="1690630748264" duration="14287000" />
+<<<<<<< Updated upstream
       <workItem from="1690648141532" duration="1398000" />
       <workItem from="1691246998959" duration="793000" />
       <workItem from="1691417881972" duration="2196000" />
@@ -2833,6 +2860,9 @@
       <workItem from="1698927318100" duration="14659000" />
       <workItem from="1699016110390" duration="10671000" />
       <workItem from="1699092645168" duration="11570000" />
+=======
+      <workItem from="1690648141532" duration="1729000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
