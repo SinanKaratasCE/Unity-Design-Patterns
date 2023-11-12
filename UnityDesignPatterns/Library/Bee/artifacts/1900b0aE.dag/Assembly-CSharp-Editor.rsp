@@ -346,6 +346,7 @@
 -r:"C:/Users/sinan/OneDrive/Masaüstü/Unity-Design-Patterns/UnityDesignPatterns/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"C:/Users/sinan/OneDrive/Masaüstü/Unity-Design-Patterns/UnityDesignPatterns/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -377,8 +378,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Zenject-PoolMonitor-Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Zenject-ReflectionBaking-Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Zenject.ref.dll"
-"Assets/3rd Party/Effect/ParticlePack/Shared/Ramps/Editor/RampAssetEditor.cs"
-"Assets/3rd Party/Model&Animation/BlinkCharacterAsset/Art/Characters/LowPoly/Editor/MaterialTilingOffset.cs"
+"Assets/Art/Effect/ParticlePack/Shared/Ramps/Editor/RampAssetEditor.cs"
 -langversion:9.0
 
 /deterministic
